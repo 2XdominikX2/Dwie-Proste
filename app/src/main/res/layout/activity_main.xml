@@ -9,6 +9,52 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tytuł"
+        android:inputType="text" />
 
+
+    <EditText
+    android:id="@+id/editTextGenre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Gatunek"
+    android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recenzja"
+        android:inputType="textMultiLine" />
+
+    <SeekBar
+        android:id="@+id/seekBarRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="5" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Film" />
+        <RadioButton
+            android:id="@+id/radioButtonBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Książka" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj" />
 
 </LinearLayout>
