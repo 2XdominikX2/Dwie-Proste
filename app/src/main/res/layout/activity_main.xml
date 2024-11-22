@@ -38,8 +38,7 @@
         android:max="10"
         android:progress="5" />
 
-
-        <RadioButton
+     <RadioButton
             android:id="@+id/radioButtonMovie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,11 +49,15 @@
             android:layout_height="wrap_content"
             android:text="Książka" />
 
-
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dodaj" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
